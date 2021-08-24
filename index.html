@@ -1,45 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html style="scroll-behavior: smooth; box-sizing:border-box;">
 
 <head>
+
 	<meta charset="utf-8">
 	<title>Portfolio</title>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
-<body style="padding: 0; margin: 0;">
+<body>
 
-	<nav style="background: #091921;color:#ffffff; padding:20px 25px; display:flex; align-items:center;
-		 justify-content:space-between">
-		<label style="font-family: pristina; font-size: 25px; word-spacing: 5px;">
-			<a href="" style="color: inherit;text-decoration:none">ARIF &nbsp;<b>AKBAR</b></a>
+	<nav>
+		<label>
+			<a href="#start">ARIF &nbsp;<b>AKBAR</b></a>
 		</label>
-		<div style="display: flex; gap:30px;">
-			<a href="" style="color: inherit; text-decoration:none">ABOUT</a>
-			<a href="" style=" color: inherit; text-decoration:none">RESUME</a>
-			<a href="" style="color: inherit; text-decoration:none">CONTACT</a>
-		</div>
+		<a href="#about">ABOUT</a>
+		<a href="#projects">PROJECTS</a>
+		<a href="#contact">CONTACT</a>
 	</nav>
+	<hr>
 
-	<div style=" position:absolute; top:40%;left:50%; transform:translate(-50%,-50%);  text-align:center;
-		font-family:Sans-serif;
-	">
+	<div id="start">
 		<h1>
 			HI, I'M ARIF AKBAR
 		</h1>
-		<p style="letter-spacing: 10px;">
+		<p>
 			<i>MERN FULL STACK WEB DEVELOPER</i>
 		</p>
 	</div>
+	</div>
 
-	<footer style="position: fixed; bottom: 0px; background: #091921; color:#ffffff; padding:10px 15px; width: 100%;
-			display: flex; justify-content: space-evenly; align-items: center;">
-		<p>&#169; Arif Akbar</p>
-		<div style="display:flex;gap: 15px;">
-			<a href="" style="color: inherit;">Facebook </a>
-			<a href="" style="color: inherit;">LinkedIn</a>
-			<a href="" style="color: inherit;">GitHub</a>
-			<a href="" style="color: inherit;">Hackerrank</a>
+	<br>
+	<hr />
+	<br>
+
+	<div id="about">
+		<h2>About Me</h2>
+		<div>
+			<div>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ad perferendis in aliquam
+					voluptatibus, voluptate vitae commodi! Amet iure laborum nostrum molestiae
+					cupiditate, perspiciatis non ullam! Animi corporis inventore, tempora ullam
+					modi, vero, est quia dignissimos quos dolor totam eligendi eos.
+				</p>
+				<small>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ad perferendis in aliquam
+					voluptatibus, voluptate vitae commodi! Amet iure laborum nostrum molestiae
+					cupiditate, perspiciatis non ullam! Animi corporis inventore, tempora ullam
+					modi, vero, est quia dignissimos quos dolor totam eligendi eos.
+				</small>
+			</div>
+			<div>
+				<img src="https://images.unsplash.com/photo-1629652927185-fe706379640e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1835&q=80"
+					alt="" width="500px">
+			</div>
 		</div>
+	</div>
+
+	<br>
+	<hr />
+	<br>
+
+	<div id="projects">
+		<h2>Projects</h2>
+		<ol>
+			<li>
+				<h3>Project Ttitle</h3>
+				<a href="">Project Link</a>
+				<p>Project Description</p>
+			</li>
+			<hr />
+			<li>
+				<h3>Project Ttitle</h3>
+				<a href="">Project Link</a>
+				<p>Project Description</p>
+			</li>
+			<hr />
+			<li>
+				<h3>Project Ttitle</h3>
+				<a href="">Project Link</a>
+				<p>Project Description</p>
+			</li>
+			<hr />
+			<li>
+				<h3>Project Ttitle</h3>
+				<a href="">Project Link</a>
+				<p>Project Description</p>
+			</li>
+		</ol>
+	</div>
+
+	<br>
+	<hr />
+	<br>
+
+	<div id="contact">
+		<h2>Contact</h2>
+		<div>
+			<div>
+				<div>
+					<div>
+						<h3> <i class="ri-contacts-book-fill"></i> Address :</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+							perferendis
+							provident cupiditate! Debitis, aliquid ab tenetur harum sit
+							saepe
+							voluptas.</p>
+					</div>
+					<div>
+						<h3><i class="ri-phone-fill"></i> Phone No</h3>
+						<p>1234567890</p>
+					</div>
+					<div>
+						<h3> <i class="ri-mail-fill"></i> Email Id:</h3>
+						<p>test@tes.com</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<form>
+				<h4>Fill to contact me</h4>
+				<div>
+					<label>Name</label>
+					<br />
+					<br>
+					<input type="text" placeholder="Your name" />
+				</div>
+				<br>
+				<div>
+					<label>Email</label>
+					<br />
+					<br>
+					<input type="email" placeholder="Your email" />
+				</div>
+				<br>
+				<div>
+					<label>Subject</label>
+					<br />
+					<br>
+					<input type="text" placeholder="Subject here.." />
+				</div>
+				<br>
+				<div>
+					<label>Description</label>
+					<br />
+					<br>
+					<textarea name="" id="" cols="30" rows="10"
+						placeholder="Min 3 words"></textarea>
+				</div>
+				<br>
+				<button>
+					Send
+				</button>
+			</form>
+		</div>
+	</div>
+
+	<br>
+
+	<hr>
+	<footer>
+		<br />
+		<div>
+			<a href="">
+				<i class="ri-facebook-box-line"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/arif-akbar-a10452150/">
+				<i class="ri-linkedin-box-line"></i>
+			</a>
+			<a href="https://github.com/arifakbar">
+				<i class="ri-github-fill"></i>
+			</a>
+			<a href="">
+				<i class="ri-instagram-line"></i>
+			</a>
+		</div>
+		<br />
+		<hr />
+		<p>&#169; Arif Akbar 2021</p>
 	</footer>
 
 </body>

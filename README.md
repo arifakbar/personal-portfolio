@@ -1,4 +1,7 @@
-# personal-portfolio
-Walkover week 3
+## Personal-Portfolio
 
-#Link -> https://arifakbar.github.io/personal-portfolio/
+- Walkover week 3
+
+## Link -> https://arifakbar.github.io/personal-portfolio/
+
+- ready is index with styling
