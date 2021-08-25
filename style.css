@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  background: rgb(247, 239, 255);
+}
+nav {
+  background: #091921;
+  color: #ffffff;
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+nav > label {
+  font-family: pristina;
+  font-size: 25px;
+  word-spacing: 5px;
+}
+#start {
+  font-family: Sans-serif;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#start > p {
+  letter-spacing: 10px;
+}
+
+#about {
+  min-height: 87vh;
+  text-align: center;
+  padding: 15px;
+}
+
+#about > h2 {
+  margin-bottom: 15px;
+}
