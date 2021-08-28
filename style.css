@@ -117,12 +117,18 @@ nav div a:hover {
   background-attachment: fixed;
   background-size: 100% 100%;
   color: #fff;
-  min-height: 87vh;
   padding: 20px 10px;
 }
 
 #projects h2 {
   font-size: 30px;
+}
+
+#projects ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
 }
 
 #projects li {
@@ -257,4 +263,73 @@ footer a {
 
 footer a:hover {
   color: #ceaf00;
+}
+
+@media (max-width: 768px) {
+  #about {
+    flex-direction: column;
+  }
+  .profile_holder {
+    margin: 5px;
+  }
+  .profile_holder img {
+    height: 65vh !important;
+  }
+  #projects ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+  #contact {
+    margin-bottom: 2rem;
+  }
+  #contact div {
+    flex-direction: column;
+  }
+  .contact_left {
+    clip-path: polygon(0 0%, 100% 0, 100% 64%, 0% 100%);
+    width: 100%;
+    padding: 18px 50px;
+  }
+  .contact_right {
+    width: 100%;
+    padding: 20px 50px;
+  }
+}
+
+.to_Top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: black;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.to_Top i {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media (max-width: 650px) {
+  #start h1 {
+    font-size: 35px;
+  }
+  #start p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 580px) {
+  nav div {
+    display: none;
+  }
 }
